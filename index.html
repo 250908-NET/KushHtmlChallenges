@@ -36,9 +36,10 @@
         </ul>
     </div>
 
-    <button onclick="addItem('New Item')">Add Item</button>
+    <input id="itemInput" type="text" placeholder="Add item" />
+    <button onclick="addItem(document.getElementById('itemInput').value)">Add</button>
     <button onclick="printList()">Show List</button>
-
+    
 </body>
 
 </html>
